@@ -1,0 +1,46 @@
+#components {
+  width: 100%;
+  height: 300px;
+  color: #fff;
+}
+
+#components header {
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 25px;
+  background: #03A9FC;
+  clear: both;
+}
+
+#components aside {
+  padding: 15px;
+  float: left;
+  width: 150px;
+  margin-right: 25px;
+  background: #03A9FC;
+  height: 100%;
+  display: inline-block;
+}
+
+#components main {
+  padding: 15px;
+  float: right;
+  background: #03A9FC;
+  height: 100%;
+  width: calc(100% - 200px);
+  display: inline-block;
+}
+
+#components main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#components main li {
+  list-style-type: none;
+  background-color: #efefef;
+  padding: 10px;
+  color: #000;
+  margin: 10px 0;
+}
